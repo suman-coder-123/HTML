@@ -1,0 +1,24 @@
+
+boilerplate code => the main code , without this code we cannot run our code 
+
+
+html is a markup language 
+
+
+code written in the tags  
+<> => open tag
+</> => closing tag 
+
+comment => the lines of code not show on the browser but wriiten in the file 
+
+<!--      -->
+
+comment => code select then ctrl + /
+
+
+
+
+    there are 3 types of list in the html => list tag => li 
+    1. ordered list  => ol tag  => 1.2. 3. , alphabet , roman no 
+    2. unordered list  => ul tag  => shapes 
+    3. description list  => dl => dt(description title) , dd (description details )
