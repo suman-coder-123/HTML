@@ -65,8 +65,11 @@
 
 -->
 
-
+<!-- 
 <table border="1" cellpadding="5px" cellspacing="0">
+    <tr>
+        <th>Student Information </th>
+    </tr>
     <tr>
         <th>NAME</th>
         <th>SUBJECT</th>
@@ -107,7 +110,63 @@
         <td>103</td>
     </tr>
 </table>
+ -->
 
+
+ <!-- border => to create lines around the table 
+ cellpadding => space between text and line 
+ cellspacing => space between two cells  
+  to merge the column => colspan 
+  to merge the row => rowspan 
+ 
+ -->
+
+
+ <table border="1" cellpadding="5px" cellspacing="0">
+
+    <tr>
+        <th colspan="5">Student information</th>
+    </tr>
+    
+    <tr>
+        <th rowspan="2">Name</th>
+        <th colspan="3">Subject</th>
+        <th rowspan="2">Roll no </th>
+    </tr>
+
+    <tr>
+        <th>hindi</th>
+       <th>math</th> 
+       <th>english </th>
+    </tr>
+
+    <tr>
+        <td>suman</td>
+        <td>78</td>
+        <td>89</td>
+        <td>99</td>
+        <td>10112345678</td>
+    </tr>
+
+   <tr>
+        <td>suman</td>
+        <td>78</td>
+        <td>89</td>
+        <td>99</td>
+        <td>10112345678</td>
+    </tr>
+<tr>
+        <td>suman</td>
+        <td>78</td>
+        <td>89</td>
+        <td>99</td>
+        <td>10112345678</td>
+    </tr>
+ </table>
+
+
+
+ 
 
 
 </body>
